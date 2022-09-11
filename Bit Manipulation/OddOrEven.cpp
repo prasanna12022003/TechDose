@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 bool OddorEven(int n)            // Returns true if n is even, else odd
