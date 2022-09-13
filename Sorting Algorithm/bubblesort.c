@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n,i,j,temp;
+    int n,i,j,c;
     scanf("%d", &n);
     printf("\nEnter the Array Elements :  ");
     int a[n];
@@ -13,9 +13,9 @@ int main()
         {
             if(a[j]>a[j+1])
             {
-                temp=a[j];
+                c=a[j];
                 a[j]=a[j+1];
-                a[j+1]=temp;
+                a[j+1]=c;
             }
         }
     }
