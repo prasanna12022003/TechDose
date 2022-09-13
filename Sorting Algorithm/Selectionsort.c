@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a[1000],n,i,j,temp;
+    int n,i,j,temp;
     scanf("%d", &n);
     printf("Enter the Array Elements:  ");
+    int a[n];
     for(i=0;i<n;i++)
         scanf("\n%d",&a[i]);
     for(i=0;i<n;i++) {
