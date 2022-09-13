@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int a[100],n,i,j,temp;
+    int a[1000],n,i,j,temp;
     scanf("%d", &n);
     printf("\nEnter the Array Elements :  ");
     for(i=0;i<n;i++)
