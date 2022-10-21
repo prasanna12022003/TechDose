@@ -15,5 +15,4 @@ public class Solution {
         return true;
     }
 }
-Footer
-© 2022 GitHub, Inc.
+
